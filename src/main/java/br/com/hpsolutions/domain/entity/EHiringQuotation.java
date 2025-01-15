@@ -10,7 +10,7 @@ public record EHiringQuotation(
         List<Long> intentionInsuranceIdList,
         Date actualInsuranceExpireDate,
         Date intentionInsuranceExpireDate,
-        Double insuranceAmountIntention
+        Double intentionInsuranceAmount
 ) {
 }
 

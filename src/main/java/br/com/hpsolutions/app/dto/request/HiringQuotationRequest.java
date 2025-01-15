@@ -14,6 +14,6 @@ public class HiringQuotationRequest {
     private List<Long> intentionInsuranceIdList;
     private Date actualInsuranceExpireDate;
     private Date intentionInsuranceExpireDate;
-    private Double insuranceAmountIntention;
+    private Double intentionInsuranceAmount;
 }
 

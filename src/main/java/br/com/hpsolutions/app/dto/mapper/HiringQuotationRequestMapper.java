@@ -16,10 +16,12 @@ public class HiringQuotationRequestMapper {
     public static EHiringQuotation toEntity(HiringQuotationRequest request) {
         return new EHiringQuotation(
                 toEntity(request.getPerson()),
-                request.getIntentionChangeId(),
+                request.getIntentionChangeIdList(),
+                request.getCurrentInsuranceIdList(),
+                request.getIntentionInsuranceIdList(),
                 request.getActualInsuranceExpireDate(),
                 request.getIntentionInsuranceExpireDate(),
-                request.getInsuranceAmountIntention()
+                request.getIntentionInsuranceAmount()
         );
     }
 
